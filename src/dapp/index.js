@@ -19,7 +19,6 @@ import './flightsurety.css';
         // User-submitted transaction
         DOM.elid('submit-oracle').addEventListener('click', () => {
             let flightArray = DOM.elid('flight-status').value.split(";");
-            
             let flightId = flightArray[0];  
             let airline = flightArray[2];   
             let timestamp = flightArray[1]; 
