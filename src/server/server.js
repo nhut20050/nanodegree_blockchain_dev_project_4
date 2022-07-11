@@ -45,7 +45,7 @@ flightSuretyApp.events.OracleRequest({
   if (!returnValues) {
     return console.log(`No return value in event`);
   }
-  
+
   // Update State, Oracle Answer (flight is late or not) by push transaction to flight contract
   const statusCodeRandom = STATUS_CODES[Math.floor(Math.random() * STATUS_CODES.length)];
   let index = returnValues.index;
@@ -72,5 +72,3 @@ app.get('/api', (req, res) => {
 })
 
 export default app;
-
-
