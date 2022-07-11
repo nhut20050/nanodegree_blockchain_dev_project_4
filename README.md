@@ -13,6 +13,9 @@ To install, download or clone the repo, then:
 
 ## Develop Client
 
+Please open Ganache UI first, then copy test address to the config/testConfig.js and update array test addresses
+<img src="/images/config-test.png" alt="How to config to test" style="height: 600px; width:800px;"/>
+
 To run truffle tests:
 
 `truffle test ./test/flightSurety.js`
